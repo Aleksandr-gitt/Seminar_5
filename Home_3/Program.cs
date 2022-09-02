@@ -7,7 +7,7 @@ int len = numbers.Length;
 
 for(int i = 0; i < len; i++)
 {
-    numbers[i] = new Random().Next(A,B) + new Random().NextDouble();  
+    numbers[i] = new Random().Next() + new Random().NextDouble();  
     Console.Write($"{numbers[i]} ");
 }
 Console.WriteLine();
